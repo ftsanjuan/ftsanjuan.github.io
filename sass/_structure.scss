@@ -1,0 +1,132 @@
+/* Site Structure
+----------------------------------------- */
+html,
+body,
+.main-container {
+  height: 100%;
+  overflow: auto;
+}
+
+.main-container {
+  width: 80%;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  border-left: 1px solid #d3d3d3;
+  @include linear-gradient(90deg, #eee 0%, #fff 4%);
+}
+
+.main-container-inner {
+  padding: 40px 40px 40px 60px;
+}
+
+header {
+  margin-top: 40px;
+}
+
+.sidebar {
+  overflow: hidden;
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  @include linear-gradient(90deg, #fff 0%, #fff 86%, #eee 100%);
+
+  .sidebar-inner {
+    margin: 40px auto 0;
+    padding-right: 20px;
+  }
+
+  .social-links {
+    margin-top: 10px;
+
+    // link icons
+    li a {
+      font-size: 1.5em;
+    }
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1;
+  }
+
+  h3 {
+    padding: 0;
+    margin: 8px 0 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: $altFont;
+    font-weight: normal;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    color: $greyPrimary;
+  }
+
+
+  .avatar {
+    margin-bottom: 20px;
+
+    a {
+      background: #fff;
+
+      img {
+        border-radius: 40px;
+        background: #fff;
+        padding: 3px;
+        border: 1px solid $greyLight;
+
+        // desaturate
+        -webkit-filter: saturate(50%);
+        @include transition(all 1.0s $ease-out-quint);
+
+        &:hover {
+          -webkit-filter: none;
+        }
+      }
+    }
+  }
+}
+
+.posts-listing {
+  margin-top: 40px;
+
+  li {
+    a {
+      @include cursor-link();
+    }
+  }
+}
+
+// Post
+.current-section {
+  border-top: 1px solid $greyLight;
+  border-bottom: 1px solid $greyLight;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+
+  a {
+    text-transform: underline;
+    background-color: transparent;
+  }
+}
+
+.primary-navigation {
+  margin: 0 20px;
+  padding: 0 10px;
+
+  li {
+    a {
+      text-align: center;
+      color: $greyPrimary;
+
+      &:hover {
+        color: $blueBase;
+        // color: $greyMedium;
+      }
+    }
+  }
+}

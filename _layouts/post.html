@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html lang="en" class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>     <html lang="en" class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>     <html lang="en" class="ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]>     <html lang="en" class="ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]>  <html lang="en"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"><!--<![endif]-->
+  {% include head.html %}
+  <body class="layout-default">
+    {% include sidebar.html %}
+    <div class="main-container">
+      <div class="main-container-inner">
+        <div class="current-section">
+          {{ page.date | date: "%d %b %Y" }}<span class="cursor">_</span>
+        </div>
+        <header>
+          <h1>{{ page.title }}</h1>
+        </header>
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

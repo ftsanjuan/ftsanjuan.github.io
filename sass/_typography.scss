@@ -1,0 +1,63 @@
+// Typography Styles
+@import 'fonts';
+@import 'entypo';
+
+$mainFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$altFont: "PT Sans Caption", Helvetica, Arial, sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0;
+}
+
+// Font styles
+h1, h2, h3 {
+  // color: $blueMedium;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h4, h5, h6 {
+  // color: $blueMedium;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+// Headings
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.825em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1.15em;
+}
+
+// Body
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.primary-navigation,
+.current-section {
+  color: $greyPrimary;
+  font-family: "PT Sans Caption", Helvetica, Arial, sans-serif;
+}
+
+.cursor {
+  @include cursor();
+}

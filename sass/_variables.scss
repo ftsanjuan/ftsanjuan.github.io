@@ -1,0 +1,21 @@
+// Blues
+// $blueBase:                      #8eafcd;
+$blueBase:                      #537D99;
+$blueMedium:                    lighten($blueBase, 5%);
+$blueLight:                     lighten($blueBase, 10%);
+$blueLighter:                   lighten($blueBase, 15%);
+$blueUltralight:                lighten($blueBase, 50%);
+$blueDark:                      darken($blueBase, 10%);
+
+// Greys
+$greyUltralight:                lighten(#ccc, 18%);
+$greyLight:                     #ececec;
+$greyPrimary:                   #a4acac;
+$greyMedium:                    darken($greyPrimary, 20%);
+$greyDark:                      darken($greyMedium, 20%);
+
+// animations
+@include keyframes(blink) {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}

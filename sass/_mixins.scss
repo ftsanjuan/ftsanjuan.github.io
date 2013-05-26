@@ -1,0 +1,39 @@
+@mixin cursor-link {
+  span.cursor {
+    visibility: hidden;
+  }
+
+  &:hover {
+    span.cursor {
+      visibility: visible;
+      text-decoration: none;
+      min-width: 8px;
+    }
+  }
+}
+
+@mixin cursor() {
+  display: inline-block;
+  background: #eee;
+  -webkit-animation: blink 1s linear 0s infinite;
+  -moz-animation: blink 1s linear 0s infinite;
+  -ms-animation: blink 1s linear 0s infinite;
+  -o-animation: blink 1s linear 0s infinite;
+}
+
+@mixin list() {
+  border-top: 1px solid $greyLight;
+  border-bottom: 1px solid $greyLight;
+  margin: 2em 0;
+  padding: 10px 0;
+
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-family: $altFont;
+  color: $greyPrimary;
+
+  li {
+    margin: 5px 0;
+    background: none;
+  }
+}

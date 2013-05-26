@@ -1,0 +1,6 @@
+// base ul styles
+.main-container {
+  ul {
+    @include list();
+  }
+}

@@ -1,0 +1,21 @@
+---
+layout: landing
+title: there's no place like ~
+---
+
+          <p>Welcome to my little corner of the Interwebs.</p>
+
+          <p>Here's what I've been scribbling lately.</p>
+
+          <ul class="unstyled posts-listing">
+            {% assign total_posts = site.posts | size %}
+            {% if total_posts > 0 %}
+              {% for post in site.posts %}
+                <li>
+                  <span class="post-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }} <span class="cursor">&nbsp;&nbsp;</span></a>
+                </li>
+              {% endfor %}
+            {% else %}
+              <li>[invisible post from the future]</li>
+            {% endif %}
+          </ul>
