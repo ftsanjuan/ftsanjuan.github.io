@@ -7,3 +7,6 @@ author:
   email_link: francis@ftsanjuan.com
   bitbucket_link: http://bitbucket.org/ftsanjuan
   instagram_link: http://instagram.com/ftsanjuan
+
+sass:
+  sass_dir: _sass
