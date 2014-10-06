@@ -4,14 +4,13 @@
 // Base Styles
 // @import "compass/reset";
 // @import "compass/utilities";
-@import "bourbon/_bourbon";
+@import "bourbon/bourbon";
 
-@import "responsive";
-@import "disqus";
 @import "variables";
 @import "mixins";
 @import "typography";
 @import "structure";
 @import "navigation";
 @import "lists";
-
+@import "responsive";
+@import "disqus";
