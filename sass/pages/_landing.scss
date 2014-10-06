@@ -1,0 +1,13 @@
+/* Landing Page
+----------------------------------------- */
+.layout-landing {
+  .posts-listing {
+    li {
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -43,7 +43,7 @@ a {
 
   &:hover {
     color: darken($linkColor, 20%);
-    text-decoration: underline;
+    // text-decoration: underline;
     background-color: transparent;
   }
 }
@@ -60,6 +60,8 @@ a {
     }
 
     .post-date {
+      width: 20%;
+      display: inline-block;
       margin-right: 20px;
     }
   }

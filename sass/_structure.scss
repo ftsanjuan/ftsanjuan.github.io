@@ -28,6 +28,7 @@ header {
   overflow: hidden;
   float: left;
   width: 20%;
+  min-width: 80px;
   height: 100%;
   text-align: center;
   @include linear-gradient(90deg, #fff 0%, #fff 86%, #eee 100%);
@@ -66,12 +67,13 @@ header {
 
 
   .avatar {
-    margin-bottom: 20px;
+    margin: 20px auto 20px;
 
     a {
       background: #fff;
 
       img {
+        margin: 0 auto;
         border-radius: 40px;
         background: #fff;
         padding: 3px;
