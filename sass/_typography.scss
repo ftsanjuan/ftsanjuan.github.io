@@ -6,6 +6,7 @@ $mainFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $altFont: "PT Sans Caption", Helvetica, Arial, sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
   margin: 20px 0;
 }
 
@@ -60,4 +61,19 @@ body {
 
 .cursor {
   @include cursor();
+}
+
+.layout-default,
+.layout-post,
+.layout-landing {
+  .content-main {
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: none !important;
+      }
+    }
+  }
 }
