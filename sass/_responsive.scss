@@ -54,6 +54,18 @@
 
 /* Posts Listing
 ----------------------------------------- */
+@media (min-width: 768px) {
+  .main-container {
+    .posts-listing {
+      li {
+        .post-date {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .main-container {
     .posts-listing {
@@ -109,6 +121,7 @@
 @media (max-width: 767px) {
   .main-container-inner {
     padding: 20px 20px 20px 30px;
+  }
 }
 
 @media (max-width: 481px) {
@@ -119,5 +132,4 @@
   p {
     font-size: em(12);
   }
-
 }
