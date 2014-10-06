@@ -21,6 +21,17 @@
 
 /* Sidebar
 ----------------------------------------- */
+@media (min-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .main-container {
+    width: 80%;
+    left: 200px;
+  }
+}
+
 @media (max-width: 767px) {
   .sidebar {
     width: 80px;
@@ -63,16 +74,7 @@
 
 /* Social Nav
 ----------------------------------------- */
-@include responsify('desktop') {
-  .social-links {
-    li {
-      width: 25%;
-      display: inline;
-    }
-  }
-}
-
-@include responsify('tablet') {
+@media (min-width: 481px) {
   .social-links {
     li {
       width: 25%;
@@ -107,14 +109,15 @@
 @media (max-width: 767px) {
   .main-container-inner {
     padding: 20px 20px 20px 30px;
+}
 
-    h1 {
-      font-size: em(14);
-    }
-
-    p {
-      font-size: em(12);
-    }
-
+@media (max-width: 481px) {
+  h1 {
+    font-size: em(14);
   }
+
+  p {
+    font-size: em(12);
+  }
+
 }
