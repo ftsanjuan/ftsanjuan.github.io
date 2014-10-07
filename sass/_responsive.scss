@@ -34,21 +34,13 @@
 
 @media (max-width: 767px) {
   .sidebar {
-    width: 80px;
+    width: 60px;
 
     .sidebar-inner {
       width: auto;
-      padding-right: 20px;
-      padding-left: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
     }
-  }
-
-  .main-container {
-    left: 80px;
-  }
-
-  .primary-navigation {
-    margin: 0;
   }
 }
 
@@ -120,7 +112,16 @@
 ----------------------------------------- */
 @media (max-width: 767px) {
   .main-container-inner {
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 50px 30px;
+  }
+
+  .main-container {
+    left: 60px;
+    width: 88%;
+  }
+
+  .primary-navigation {
+    margin: 0;
   }
 }
 
@@ -131,5 +132,9 @@
 
   p {
     font-size: em(12);
+  }
+
+  .main-container {
+    width: 80%;
   }
 }

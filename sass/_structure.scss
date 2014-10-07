@@ -28,7 +28,7 @@ header {
   overflow: hidden;
   float: left;
   width: 20%;
-  min-width: 80px;
+  min-width: 60px;
   height: 100%;
   text-align: center;
   @include linear-gradient(90deg, #fff 0%, #fff 86%, #eee 100%);
@@ -129,6 +129,15 @@ header {
         color: $blueBase;
         // color: $greyMedium;
       }
+    }
+  }
+}
+
+// Posts listing
+.layout-landing {
+  .posts-listing {
+    a {
+      color: #000;
     }
   }
 }
