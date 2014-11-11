@@ -9,9 +9,8 @@ So this morning I woke up at 3:16am to the sound of Gmail's dinging indicating I
 
 It was no surprise that I wouldn't be able to get back to sleep until a couple of hours later, but I was surprised why I couldn't get back to sleep. I could've considered this night of broken sleep a disaster, but an odd thing happened... I felt like being creative. Maybe [this article about broken sleep](http://aeon.co/magazine/psychology/why-broken-sleep-is-a-golden-time-for-creativity/) is right after all. The second sleep we've been passing up has been a daily missed opportunity to get the creative juices flowing.
 
-Anyhow, I am by not the most prolific storyteller, nor am I a comedic genius but in the wee hours early this morning felt like writing a story, a funny story, a joke really, and the result is what you read below. It might not be funny at all, but I am content. And I'm laughing at the strange thoughts that percolate at 3:16 in the morning.
+Anyhow, I am by not the most prolific storyteller, nor am I a comedic genius but in the wee hours early this morning felt like writing a story, a funny story, a joke really, and the result is what you read below. It might not be funny at all (especially if you don't watch too many pop song covers on YouTube), but I am content. And I'm laughing at the strange thoughts that percolate at 3:16 in the morning.
 
-Oh, and if you're wondering, I finally did crash at 6:30am -- if jokes take me this long to make, I'm definitely not quitting the day job.
 
 >Bruno Mars, Enrique Iglesias, and Justin Timberlake were all hanging out one day when they see a beautiful girl pass by them on the street. They're all stunned by how attractive she is, and they all try to win her heart and impress her before she walks off.
 >
@@ -38,3 +37,5 @@ Oh, and if you're wondering, I finally did crash at 6:30am -- if jokes take me t
 >Gabe says, "I told her, 'You see those three guys that kept coming up to you...
 >
 >I've got ALL their songs covered.'"
+
+Oh, and if you're wondering, I finally did crash at 6:30am.
