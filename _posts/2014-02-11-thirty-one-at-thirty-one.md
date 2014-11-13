@@ -5,7 +5,7 @@ date: 2014-02-11-7:33
 tags: reflections, lists, life, lessons
 ---
 
-In the past months I’ve been thinking about I’ve learned or am learning in my 31 years.
+In the past months I’ve been thinking what about I’ve learned or am learning in my 31 years.
 
 Here’s my 31 at 31.
 
